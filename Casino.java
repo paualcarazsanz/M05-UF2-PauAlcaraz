@@ -75,3 +75,19 @@ public class Main {
             }
         }
     }
+    
+    private static void verRegistroApuestas() {
+        String userHome = System.getProperty("user.home");
+        String filePath = userHome + File.separator + "Downloads" + File.separator + "apuestas.txt";
+
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            System.out.println("Registro de Apuestas:");
+            while ((line = reader.readLine()) != null) {
+                System.out.println(line);
+            }
+        } catch (IOException e) {
+            System.out.println("Error al leer el archivo de registro de apuestas: " + e.getMessage());
+        }
+    }
+}
