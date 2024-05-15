@@ -1,4 +1,4 @@
-# M05-UF2-PauAlcaraz_MaximoMartinez
+# M05-UF2-PauAlcaraz
 # Ruleta de Casino en Java
 
 Este es un proyecto de una ruleta de casino implementada en Java. La ruleta es un juego de azar popular en los casinos donde los jugadores realizan apuestas en números, colores o rangos de números.
